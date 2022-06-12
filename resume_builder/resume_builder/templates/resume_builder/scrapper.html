@@ -1,0 +1,10 @@
+{% extends "cvbuilder/_base.html" %}
+{% block title %} Resume Builder | Create/Edit {% endblock %}
+{% block header %} Create or Edit Skill {% endblock %}
+
+{% block content %}
+<p>hi there</p>
+{% for obj in res %}
+<a href={{obj}}>{{ obj }}</a></br><hr>
+{% endfor %}
+{% endblock %}
